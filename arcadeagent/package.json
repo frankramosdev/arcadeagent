@@ -1,0 +1,26 @@
+{
+  "name": "Arcade Agent",
+  "version": "1.0.0",
+  "description": "Arcade Agent LangChain.js  Workflow ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start:advanced": "node advanced-agent.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "langchain",
+    "agent",
+    "ai",
+    "llm"
+  ],
+  "author": "Frank Ramos @franramosdev",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.0.17",
+    "@langchain/openai": "^0.0.14",
+    "dotenv": "^16.3.1",
+    "langchain": "^0.0.201"
+  }
+}
